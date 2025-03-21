@@ -1,0 +1,28 @@
+mkdir zadaca_2 && cd zadaca_2 && mkdir vjezba_2 && touch vjezba_2.txt && ls
+
+-----------------------------------
+Zadatak-1
+
+mkdir vjezba_2/data && mkdir vjezba_2/backup
+touch vjezba_2/data/{script.js,style.css,.env}
+echo 'console.log("Hello,World!")' > vjezba_2/data/script.js 
+echo "body { background-color: #f0f0f0; }" > vjezba_2/data/style.css 
+echo "VJEBE=OS" > vjezba_2/data/.env
+-----------------------------------
+Zadatak-2
+
+cp -v vjezba_2/data/{.env,script.js,style.css} vjezba_2/backup
+cd vjezba_2/data && ls -laS
+-----------------------------------
+Zadatak-3
+
+rm * -v
+cp -v  /mnt/c/Users/Administrator/Github/OS1-zadace/zadaca_2/vjezba_2/backup/* /mnt/c/Users/Administrator/Github/OS1-zadace/zadaca_2/vjezba_2/data 
+ls -lAt
+-----------------------------------
+Zadatak-4
+
+cd /mnt/c/Users/Administrator/Github/OS-zadace/zadaca_2/glavni_direk/
+ls -laS
+ls -lASh
+ls -Rt --color

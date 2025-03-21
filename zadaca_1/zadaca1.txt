@@ -1,4 +1,5 @@
 Zadatak-1
+
 pwd && ls
 mkdir vjezba1
 cd vjezba1
@@ -6,6 +7,7 @@ touch README.md
 cd ..              
 -----------------------
 Zadatak-2
+
 touch vjezba2/file.txt
 cp file.txt file_copy.txt && ls
 rm file.txt && cd ..
@@ -13,6 +15,7 @@ rmdir vjezba2
 # Direktorij nije prazan 
 -----------------------
 Zadatak-3
+
 mkdir vjezba3 && mkdir vjezba3/backup
 touch vjezba3/{notes.txt,todo.txt,script.sh}
 cp vjezba3/notes.txt vjezba3/backup/notes.txt && cp vjezba3/script.sh vjezba3/backup/script.sh && cp vjezba3/todo.txt vjezba3/backup/todo.txt
@@ -21,11 +24,9 @@ mkdir vjezba3/backup/$USER
 mv vjezba3/backup/* vjezba3/backup/$USER
 -----------------------
 Zadatak-4
+
 mkdir vjezba4 && mkdir vjezba4/subfolder 
 cd vjezba4 && touch $HOSTNAME
 mv $HOSTNAME $USER
 rm /mnt/c/Users/Administrator/Github/OS1-zadace/vjezba4/$USER
 
-------------------------
-# Spremanje svega u folder zadaca_1
------------------------
