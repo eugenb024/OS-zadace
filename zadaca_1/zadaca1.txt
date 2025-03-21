@@ -1,5 +1,6 @@
 Zadatak-1
 
+
 pwd && ls
 mkdir vjezba1
 cd vjezba1
