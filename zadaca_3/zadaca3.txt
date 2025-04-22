@@ -1,0 +1,28 @@
+# Zadatak-1 - skripta1.sh
+touch skripta1.sh && nano skripta1.sh
+chmod +x skripta1.sh
+bash skripta1.sh 
+bash skripta1.sh /mnt/c/Users/Administrator/Github/OS-zadace/zadaca_3/zadatak1/neki-tekst.txt
+# ------------------------------------------------------------------------------------
+# Zadatak-2 - skripta2.sh
+touch tekst.txt style.css html.html
+nano skripta2.sh
+chmod +x skripta2.sh 
+bash skripta2.sh test 
+bash skripta2.sh /mnt/c/Users/Administrator/Github/OS-zadace/zadaca_3/zadatak2 .txt
+# ------------------------------------------------------------------------------------
+# Zadatak-3 - skripta3.sh
+nano skripta3.sh
+chmod +x skripta3.sh
+bash skripta3.sh  22 
+bash skripta3.sh  9
+# ------------------------------------------------------------------------------------
+# Zadatak-4 - skripta4.sh
+nano skripta4.sh
+bash skripta4.sh
+# ------------------------------------------------------------------------------------
+# Zadatak-5 - skripta5.sh
+touch tekst.txt style.css index.js
+nano skripta5.sh
+chmod +x skripta3.sh
+bash skripta5.sh podirektorij
